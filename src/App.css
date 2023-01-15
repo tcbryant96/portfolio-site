@@ -21,3 +21,13 @@
   width: auto;
   overflow: hidden;
 }
+
+.resume-button{
+  border-radius: 22px;
+}
+
+.bio-button{
+  height: 40px;
+  border-radius:50px;
+  margin-top: 10px;
+}
