@@ -48,3 +48,22 @@
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
 
 }
+
+.skill-image{
+  height:75px;
+  max-width:100%;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.skill-card{
+  min-width: 110px;
+  max-height: 200px;
+  border-radius: 25px;
+}
+
+.skill-card:hover{
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+  transform: scale(1.03);
+}
+

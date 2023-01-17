@@ -13,7 +13,7 @@ export default function Bio() {
         <Image
           className="hero-image me-5"
           src={require("../images/me.jpg")}
-          alt="Fridge"
+          alt="Trevor Bryant"
         />
       </div>
       <div className="col mt-5">
