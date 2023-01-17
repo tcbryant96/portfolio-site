@@ -16,15 +16,21 @@ export const SidebarData = [
         className: 'nav-text'
     },
     {
-        title: 'Projects',
-        path: "/projects",
-        icon: <AiIcons.AiOutlineLaptop/>,
+        title: 'About Me',
+        path: "/about",
+        icon: <MdIcons.MdPersonOutline/>,
         className: 'nav-text'
     },
     {
         title: 'Skills',
         path: "/skills",
         icon: <GiIcons.GiSkills/>,
+        className: 'nav-text'
+    },
+    {
+        title: 'Projects',
+        path: "/projects",
+        icon: <AiIcons.AiOutlineLaptop/>,
         className: 'nav-text'
     },
     {
