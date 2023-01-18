@@ -6,10 +6,6 @@ export const SkillData = [
     title: "Bootstrap",
   },
   {
-    image: "API.png",
-    title: "Rest API",
-  },
-  {
     image: "css.jpg",
     title: "CSS",
   },
@@ -48,6 +44,10 @@ export const SkillData = [
   {
     image: "react.png",
     title: "React",
+  },
+  {
+    image: "API.png",
+    title: "Rest API",
   },
   {
     image: "sql.jpg",

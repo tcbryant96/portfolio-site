@@ -15,7 +15,7 @@ export default function skills() {
         </div>
         <h2>Skills</h2>
         <Card className="card-box mt-5 mb-5 ">
-          <Card.Body className="fs-5 d-flex">
+          <Card.Body className="fs-5 skills-body">
             {SkillData.map((item, index) =>{
                 return(
                     <Card className="skill-card" key={index}>
