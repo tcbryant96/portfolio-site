@@ -54,10 +54,10 @@ export default function Projects() {
                     <h2 className='text-center'>Pokédex</h2>
                     <h4>Technoligies Used: <span style={{color:"blue"}}>Javascript, CSS, HTML, Rest API, Bootstrap</span> </h4>
                     <ul className='fs-6'>
-                        <li>Curated a straightforward, professional interface using React, Bootstrap, and CSS  that modularized React components and displayed dynamic web pages, such as a user’s username when successfully logged in and recipes based on the number of  ingredients they have in their fridge</li>
-                        <li>Optimized the recipe search engine to accept multiple criteria by filtering a user’s input and fetching data from the most relevant API</li>
-                        <li>Constructed a Flask API on the back end that uses token authentication to handle HTTP requests and verify complex logins </li>
-                        <li>Stored application data and user information in a SQLite database hosted in ElephantSQL</li>
+                        <li>Built HTML template with CSS with Bootstrap framework</li>
+                        <li>Displayed information retrieved from Pokémon API using async functions and DOM Maniputlation</li>
+                        <li>Created cards with Pokémon information based on user input using event listeners</li>
+            
                     </ul>
                     <a className='mt-5' href="https://tcbryant96.github.io">https://tcbryant96.github.io</a>
                 </div>
