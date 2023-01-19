@@ -12,7 +12,7 @@ export default function Projects() {
           <hr></hr>
         </div>
         <div className="col">
-          <p className="fs-6 text-muted">look at my</p>
+          <p className="fs-6 text-muted" id="my-projects">look at my</p>
         </div>
       </div>
       <h2>Live Projects</h2>

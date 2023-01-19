@@ -10,7 +10,7 @@ export default function skills() {
             <hr></hr>
           </div>
           <div className="col">
-            <p className="fs-6 text-muted">check out my</p>
+            <p className="fs-6 text-muted" id="my-skills">check out my</p>
           </div>
         </div>
         <h2>Skills</h2>

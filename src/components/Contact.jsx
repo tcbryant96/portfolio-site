@@ -21,7 +21,7 @@ export default function Contact() {
       <Card className="card-box mt-5 mb-5">
         <Card.Body className="fs-5">
             <h2 className='text-center'>Email Me</h2>
-        <Form className='mt-3'>
+        <Form className='mt-3' id="contact-form">
       <Row className="mb-4">
         <Form.Group as={Col} controlId="formGridEmail">
           <Form.Control type="email" placeholder="Your Email*" />
@@ -37,7 +37,7 @@ export default function Contact() {
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formGridAddress2">
-        <Form.Control placeholder="Your Message*" />
+        <Form.Control r as="textarea" rows={3} placeholder="Your Message*" />
       </Form.Group>
     <Col className='d-flex justify-content-center'>
       <Button variant="primary" type="submit" className='text-center'>

@@ -7,7 +7,7 @@ import * as AiIcons from "react-icons/ai"
 
 export default function Bio() {
   return (
-    <div className="home">
+    <div className="home" id="my-bio">
     <div className="row">
       <div className="col-6 d-flex justify-content-end">
         <Image
@@ -21,12 +21,12 @@ export default function Bio() {
         <p className="fs-5 ">A<span style={{color:"blue"}}> Front-End Web Devolper </span>& natural problem solver transitioning into the field of tech.</p>
         <div className="row d-flex align-items-center">
           <div className="col-4">
-        <Button size="lg" className="resume-button">Resumé</Button>
+        <a href="https://docs.google.com/document/d/1NA7TYqTD6FPjqw-u7X1wPmXWlY7JBOXBFYOMvRwESHk/edit?usp=share_link"><Button size="lg" className="resume-button">Resumé</Button></a>
         </div>
         <div className="col-7 d-flex justify-content-evenly">
         <a href="https://www.linkedin.com/in/trevor-bryant-2589ba218/"><Button className="bio-button mb-2"><AiIcons.AiFillLinkedin/></Button></a>
         <a href="https://github.com/tcbryant96"><Button className="bio-button mb-2"><AiIcons.AiOutlineGithub/></Button></a>
-        <a><Button className="bio-button mb-2"><AiIcons.AiOutlineMail/></Button></a>
+        <a href="#contact-form"><Button className="bio-button mb-2"><AiIcons.AiOutlineMail/></Button></a>
         </div>
         </div>
       </div>

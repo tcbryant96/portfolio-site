@@ -10,7 +10,7 @@ export default function AboutMe() {
             <hr></hr>
           </div>
           <div className="col">
-            <p className="fs-6 text-muted">some info</p>
+            <p className="fs-6 text-muted"id="about-me">some info</p>
           </div>
         </div>
         <h2>About Me</h2>

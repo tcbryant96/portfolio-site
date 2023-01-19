@@ -11,31 +11,31 @@ import { Link } from 'react-router-dom'
 export const SidebarData = [
     {
         title: 'Home',
-        path: "/",
+        path: "#my-bio",
         icon: <AiIcons.AiOutlineHome/>,
         className: 'nav-text'
     },
     {
         title: 'About Me',
-        path: "/about",
+        path: "#about-me",
         icon: <MdIcons.MdPersonOutline/>,
         className: 'nav-text'
     },
     {
         title: 'Skills',
-        path: "/skills",
+        path: "#my-skills",
         icon: <GiIcons.GiSkills/>,
         className: 'nav-text'
     },
     {
         title: 'Projects',
-        path: "/projects",
+        path: "#my-projects",
         icon: <AiIcons.AiOutlineLaptop/>,
         className: 'nav-text'
     },
     {
         title: 'Contact',
-        path: "/contact",
+        path: "#contact-form",
         icon: <MdIcons.MdOutlineContactSupport/>,
         className: 'nav-text'
     }
