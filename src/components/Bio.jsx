@@ -24,9 +24,9 @@ export default function Bio() {
         <Button size="lg" className="resume-button">Resumé</Button>
         </div>
         <div className="col-7 d-flex justify-content-evenly">
-          <Button size="md" className="bio-button"><AiIcons.AiFillLinkedin/></Button>
-          <Button className="bio-button"><AiIcons.AiOutlineGithub/></Button>
-          <Button className="bio-button d-flex justify-content-center align-items-center"><AiIcons.AiOutlineFacebook/></Button>
+        <a href="https://www.linkedin.com/in/trevor-bryant-2589ba218/"><Button className="bio-button mb-2"><AiIcons.AiFillLinkedin/></Button></a>
+        <a href="https://github.com/tcbryant96"><Button className="bio-button mb-2"><AiIcons.AiOutlineGithub/></Button></a>
+        <a><Button className="bio-button mb-2"><AiIcons.AiOutlineMail/></Button></a>
         </div>
         </div>
       </div>
