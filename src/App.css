@@ -19,9 +19,11 @@
 
 .hero-image {
   border-radius: 50%;
-  height: 350px;
-  width: auto;
-  overflow: hidden;
+  width: 350px;
+  height:370px;
+  background: url("./images/blue.png");
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+
 }
 
 .resume-button{
@@ -29,7 +31,9 @@
 }
 
 .resume-button:hover{
-  transform: scale(1.1); 
+  transform: scale(1.03); 
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+
 
 }
 
@@ -40,13 +44,22 @@
 }
 
 .bio-button:hover{
-  transform: scale(1.1); 
+  transform: scale(1.03); 
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+
 }
 
 .card-box{
   border-radius: 25px;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
 
+}
+
+.card-box:hover{
+  transform: scale(1.01);
+}
+.about-me-text{
+  font-family: cursive
 }
 
 .skill-image{
@@ -71,13 +84,91 @@
 }
 
 .project-image{
-  max-width:400px;
+  width:100%;
   height:auto;
   margin-top: 20px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+  border-radius: 25px;
+
 }
 
 .skills-body{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+
+.side-navbar{
+  background-color: blue;
+  width: 50%;
+  height: 100vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  transition: 350ms;
+  padding-right: 12px;
+}
+
+.side-navbar:hover{
+  width:100%;
+  transition: 350ms;
+}
+
+.side-navbar:hover span{
+  display: contents;
+}
+
+
+.icon-link{
+  color:white;
+  text-decoration:none;
+  font-size: 20px;
+  height:50%;
+  margin:25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-link span{
+  display:none
+}
+
+.icon-link:hover{
+  color: white;
+  text-decoration: none;
+  background-color: rgb(47, 47, 255);
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+  border-radius: 50px; 
+}
+
+.side-navbar-header{
+  font-size: 40px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(6, 6, 208);
+  height:100px;
+  margin-bottom: 15px;
+}
+
+.animate-name{
+  animation-duration: 1s;
+  animation-name: animate-name;
+}
+
+@keyframes animate-name{
+  from {
+    transform: translateX(90%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
 }

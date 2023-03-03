@@ -12,7 +12,11 @@ import Contact from "../components/Contact";
 export default function Home() {
   return (
     <>
+    <div className="row">
+      <div className="col-10 d-flex justify-content-end">
       <Bio></Bio>
+      </div>
+      </div>
       <div className="row">
         <div className="col-10 d-flex justify-content-end">
           <AboutMe></AboutMe>

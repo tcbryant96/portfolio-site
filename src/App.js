@@ -5,13 +5,22 @@ import AboutMe from "./components/AboutMe";
 import Sidebar from './components/Sidebar';
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
+import SideNavbar from "./components/SideNavbar";
 
 function App() {
   return (
     <>
-    
-    <Sidebar></Sidebar>
+    <div className="row">
+
+    <div className="col-2">
+
+    <SideNavbar></SideNavbar>
+    </div>
+    <div className="col">
+
     <Home></Home>
+    </div>
+    </div>
     
 
 </>

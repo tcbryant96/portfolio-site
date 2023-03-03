@@ -16,7 +16,7 @@ export const SidebarData = [
         className: 'nav-text'
     },
     {
-        title: 'About Me',
+        title: 'Me',
         path: "#about-me",
         icon: <MdIcons.MdPersonOutline/>,
         className: 'nav-text'
