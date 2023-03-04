@@ -4,7 +4,7 @@ import { SkillData } from "./SkillsData";
 export default function skills() {
   return (
     <>
-      <div className="col mt-5">
+      <div className="col p-3 mt-5">
         <div className="row">
           <div className="col-1">
             <hr></hr>

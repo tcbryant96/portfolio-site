@@ -1,29 +1,21 @@
-
-import { Routes, Route, useNavigate } from "react-router-dom";
-import './App.css';
-import AboutMe from "./components/AboutMe";
-import Sidebar from './components/Sidebar';
+import React from "react";
+import "./App.css";
 import Home from "./pages/Home";
-import Projects from "./pages/Projects";
 import SideNavbar from "./components/SideNavbar";
+import { ThemeProvider } from "react-bootstrap";
 
 function App() {
   return (
     <>
-    <div className="row">
+      <ThemeProvider
+        breakpoints={["xxxl", "xxl", "xl", "lg", "md", "sm", "xs", "xxs"]}
+        minBreakpoint="xxs"
+      >
 
-    <div className="col-2">
-
-    <SideNavbar></SideNavbar>
-    </div>
-    <div className="col">
-
-    <Home></Home>
-    </div>
-    </div>
+            <Home></Home>
     
-
-</>
+      </ThemeProvider>
+    </>
   );
 }
 

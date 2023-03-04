@@ -56,7 +56,7 @@ export default function Contact() {
     
   return (
     <>
-    <div className="col">
+    <div className="col p-3 add-bottom-margin">
       <div className="row">
         <div className="col-1">
           <hr></hr>

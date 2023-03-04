@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 export default function AboutMe() {
   return (
     <>
-      <div className="col">
+      <div className="col p-3">
         <div className="row">
           <div className="col-1">
             <hr></hr>

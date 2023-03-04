@@ -8,35 +8,30 @@ import AboutMe from "../components/AboutMe";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
+import SideNavbar from "../components/SideNavbar";
+import { ThemeProvider } from "react-bootstrap";
 
 export default function Home() {
   return (
     <>
-    <div className="row">
-      <div className="col-10 d-flex justify-content-end">
-      <Bio></Bio>
-      </div>
-      </div>
-      <div className="row">
-        <div className="col-10 d-flex justify-content-end">
-          <AboutMe></AboutMe>
+      <ThemeProvider
+        breakpoints={["xxxl", "xxl", "xl", "lg", "md", "sm", "xs", "xxs"]}
+        minBreakpoint="xxs"
+      >
+        <div class="row no-padding ">
+          <div className="col-md-2 col-sm-12 sticky-bottom no-padding">
+            <SideNavbar className="container-fluid"></SideNavbar>
+          </div>
+          <div className="col-md-10 col-sm-12">
+            <Bio></Bio>
+            <AboutMe></AboutMe>
+
+            <Skills></Skills>
+            <Projects></Projects>
+            <Contact></Contact>
+          </div>
         </div>
-      </div>
-      <div className="row">
-        <div className="col-10 d-flex justify-content-end">
-          <Skills></Skills>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-10 d-flex justify-content-end">
-          <Projects></Projects>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-10 d-flex justify-content-end">
-          <Contact></Contact>
-        </div>
-      </div>
+      </ThemeProvider>
     </>
   );
 }
