@@ -16,11 +16,11 @@ export default function Bio() {
         breakpoints={["xxxl", "xxl", "xl", "lg", "md", "sm", "xs", "xxs"]}
         minBreakpoint="xxs"
       >
-        <div className="row d-flex justify-content-center align-items-center p-5 mb-5" id="my-bio">
-          <div
-       
-            className="col d-flex flex-column justify-content-center align-items-center"
-          >
+        <div
+          className="row d-flex justify-content-center align-items-center p-5 mb-5"
+          id="my-bio"
+        >
+          <div className="col d-flex flex-column justify-content-center align-items-center">
             <div className="row d-flex justify-content-center align-items-center flex-grow-1">
               <div className="col h-100 d-flex justify-content-center align-items-center">
                 <div style={{ position: "relative" }}>
@@ -53,7 +53,7 @@ export default function Bio() {
             <div className="row ">
               <div className="col h-100 d-flex justify-content-center align-items-center pt-5">
                 <Button
-                  className=" mt-4 resume-button"
+                  className=" mt-4 resume-button anime-button"
                   onClick={() => {
                     setToAnime(true);
                   }}
@@ -68,7 +68,7 @@ export default function Bio() {
             lg={6}
             md={12}
             sm={12}
-            className="col mt-5 d-flex flex-column"
+            className="col-md-12 col-lg-6 mt-5 d-flex flex-column"
           >
             <div className="row flex-grow-1">
               <div className="col  h-100">
@@ -91,7 +91,14 @@ export default function Bio() {
               </div>
             </div>
             <div className="row h-100 d-flex justify-content-center align-items-center">
-              <div lg={4} md={4} sm={12} xs={12}  xxs={12} className="col h-100 d-flex justify-content-center align-items-center">
+              <div
+                lg={4}
+                md={4}
+                sm={12}
+                xs={12}
+                xxs={12}
+                className="col h-100 d-flex justify-content-center align-items-center"
+              >
                 <a href="https://docs.google.com/document/d/18RRgV2cI6T-Q4lCna-mMc4Hid6qq4WJ7C9C8NGP_Pl8/edit?usp=sharing">
                   <Button size="lg" className="resume-button">
                     Resumé

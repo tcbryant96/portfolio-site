@@ -1,24 +1,26 @@
-import React from "react";
-
 export const SkillData = [
   {
-    image: "bootstrap.jpg",
+    image: "azure.png",
+    title: "Azure",
+  },
+  {
+    image: "bootstrap2.png",
     title: "Bootstrap",
   },
   {
-    image: "css.jpg",
+    image: "css.png",
     title: "CSS",
   },
   {
-    image: "Flask.png",
+    image: "flask.png",
     title: "Flask",
   },
   {
-    image: "github.jpg",
+    image: "github.png",
     title: "Github",
   },
   {
-    image: "html.jpg",
+    image: "html.png",
     title: "HTML",
   },
   {
@@ -34,11 +36,11 @@ export const SkillData = [
     title: "Node JS",
   },
   {
-    image: "PostgreSQL.jpg",
+    image: "postgresql.png",
     title: "PostgreSQL",
   },
   {
-    image: "python.jpg",
+    image: "python.png",
     title: "Python",
   },
   {
@@ -50,11 +52,11 @@ export const SkillData = [
     title: "Rest API",
   },
   {
-    image: "sql.jpg",
+    image: "sql.png",
     title: "SQL",
   },
   {
-    image: "vs code.jpg",
+    image: "vs code.png",
     title: "VS Code",
-  }
+  },
 ];

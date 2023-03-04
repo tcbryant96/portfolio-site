@@ -1,11 +1,6 @@
 import React from "react";
-import * as FaIcons from "react-icons/fa";
-import * as AiIcons from "react-icons/ai";
-import { Link } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
-import "./Sidebar.css";
 import { IconContext } from "react-icons";
-import Navbar from "react-bootstrap/Navbar";
 
 export default function SideNavbar() {
   return (
@@ -13,19 +8,19 @@ export default function SideNavbar() {
       <IconContext.Provider value={{ color: "white", size: 42 }}>
         <nav className="side-navbar">
           <ul>
-          <li className="side-navbar-header">TB</li>
-          {SidebarData.map((item, index) =>{
-            return(
-              <>
-            <li>
-              <a href={item.path} className="icon-link">
-                {item.icon}
-                <span>{item.title}</span>
-              </a>
-                </li>
-          </>
-            )
-          })}
+            <li className="side-navbar-header">TB</li>
+            {SidebarData.map((item, index) => {
+              return (
+                <>
+                  <li>
+                    <a href={item.path} className="icon-link">
+                      {item.icon}
+                      <span>{item.title}</span>
+                    </a>
+                  </li>
+                </>
+              );
+            })}
           </ul>
         </nav>
       </IconContext.Provider>

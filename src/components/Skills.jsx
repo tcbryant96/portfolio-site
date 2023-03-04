@@ -10,29 +10,30 @@ export default function skills() {
             <hr></hr>
           </div>
           <div className="col">
-            <p className="fs-6 text-muted" id="my-skills">check out my</p>
+            <p className="fs-6 text-muted" id="my-skills">
+              check out my
+            </p>
           </div>
         </div>
         <h2>Skills</h2>
         <Card className="card-box mt-5 mb-5 ">
           <Card.Body className="fs-5 skills-body">
-            {SkillData.map((item, index) =>{
-                return(
-                    <Card className="skill-card" key={index}>
-                    <Card.Img
-                      variant="top"
-                      src={require(`../images/${item.image}`)}
-                      className="skill-image"
-                    />
-                    <Card.Body>
-                      <Card.Text className="fs-6 fw-bold text-center">
-                        {item.title}
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                )
+            {SkillData.map((item, index) => {
+              return (
+                <Card className="skill-card" key={index}>
+                  <Card.Img
+                    variant="top"
+                    src={require(`../images/${item.image}`)}
+                    className="skill-image"
+                  />
+                  <Card.Body>
+                    <Card.Text className="fs-6 fw-bold text-center">
+                      {item.title}
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              );
             })}
-
           </Card.Body>
         </Card>
       </div>
