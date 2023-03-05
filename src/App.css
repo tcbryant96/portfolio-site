@@ -34,9 +34,9 @@
 
 .hero-image-3{
   width: auto;
-  height: 7%;
+  height: 9%;
   position: absolute;
-  top: 45%;
+  top: 43%;
   left: 71%;
   transform: translateX(-50%);
 }
@@ -123,7 +123,18 @@
   justify-content: center;
 }
 
+.column-container{
+  display: flex;
+  flex-direction: row;
+}
 
+.column-order-1{
+    order:1
+}
+
+.column-order-2{
+    order: 2
+}
 
 
 @media (max-width: 768px){
@@ -135,7 +146,16 @@
     width: 100%;
     padding: 1vh;
   }
+  .column-container{
+    flex-direction: column;
+  }
 
+  .column-order-1{
+    order: 2;
+  }
+  .column-order-2{
+    order: 1;
+  }
   .sticky-bottom{
     position: fixed;
     bottom: 0;
