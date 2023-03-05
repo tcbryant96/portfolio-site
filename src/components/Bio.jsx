@@ -17,7 +17,7 @@ export default function Bio() {
         minBreakpoint="xxs"
       >
         <div
-          className="row column-container d-flex justify-content-center align-items-center pt-5 mb-5"
+          className="row column-container d-flex justify-content-center align-items-center mb-5"
           id="my-bio"
         >
           <div className="col column-order-1 d-flex flex-column justify-content-center align-items-center">
@@ -47,8 +47,8 @@ export default function Bio() {
                   ></Image>
                 </div>
           </div>
-          <div className="col-md-12 column-order-2 col-lg-6 mt-5 d-flex flex-column">
-                  <h2 className="mb-4 text-center ">Hello World! I'm</h2>
+          <div className="col-md-12 column-order-2 col-lg-6 d-flex flex-column">
+                  <h1 className="mb-4 text-center ">Hello World! I'm</h1>
                 <h1
                   className={`mb-4 text-center ${
                     moveNameIn ? "animate-name" : "hidden"
