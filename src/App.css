@@ -272,7 +272,7 @@
 
 
 .animate-name{
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-name: animate-name;
   transform: perspective(1000px);
 }
@@ -288,17 +288,17 @@
     transform-origin: center center;
   }
 
-  25% {
+  10% {
     transform: translateX(0%) scale(1.3) perspective(1000px);
     transform-origin: center center;
   }
 
-  30% {
+  20% {
     transform: rotate(0deg) scale(1.3) perspective(1000px);
     transform-origin: center center;
   }
 
-  80% {
+  30% {
     transform: rotate(-360deg) scale(1.7) perspective(1000px);
     transform-origin: center center;
   }
