@@ -5,10 +5,19 @@ import Button from "react-bootstrap/Button";
 import * as AiIcons from "react-icons/ai";
 import { useInView } from "react-intersection-observer";
 import { ThemeProvider } from "react-bootstrap";
+import { Link } from 'react-router-dom';
+import PDFLink from "./PDFLink";
+
 
 export default function Bio() {
   const { ref: myName, inView: moveNameIn } = useInView();
   const [toAnime, setToAnime] = useState(false);
+
+ 
+  function handleButtonClick() {
+      const pdfUrl = '/files/myPDF.pdf';
+      window.open(pdfUrl, '_blank');
+    }
 
   return (
     <>
@@ -90,11 +99,10 @@ export default function Bio() {
             </Button>}
           </div>
           <div className="col d-flex justify-content-evenly align-items-center mb-5">
-            <a href="https://docs.google.com/document/d/18RRgV2cI6T-Q4lCna-mMc4Hid6qq4WJ7C9C8NGP_Pl8/edit?usp=sharing">
-              <Button size="lg" className="resume-button">
+              <Button onClick={handleButtonClick} size="lg" className="resume-button">
                 Resumé
               </Button>
-            </a>
+           
             <a href="https://www.linkedin.com/in/trevor-bryant-2589ba218/">
               <Button className="bio-button m-2">
                 <AiIcons.AiFillLinkedin />
