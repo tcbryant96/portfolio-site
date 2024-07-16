@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import Home from "./pages/Home";
-import SideNavbar from "./components/SideNavbar";
 import { ThemeProvider } from "react-bootstrap";
 
 function App() {

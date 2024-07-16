@@ -5,8 +5,6 @@ import Button from "react-bootstrap/Button";
 import * as AiIcons from "react-icons/ai";
 import { useInView } from "react-intersection-observer";
 import { ThemeProvider } from "react-bootstrap";
-import { Link } from 'react-router-dom';
-import PDFLink from "./PDFLink";
 
 
 export default function Bio() {
