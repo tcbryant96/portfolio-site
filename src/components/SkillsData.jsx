@@ -12,7 +12,7 @@ export const SkillData = [
     title: "CSS",
   },
   {
-    image: "flask.png",
+    image: "Flask.png",
     title: "Flask",
   },
   {
