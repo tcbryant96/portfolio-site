@@ -13,7 +13,7 @@ export default function Bio() {
 
  
   function handleButtonClick() {
-      const pdfUrl = '/files/myPDF.pdf';
+      const pdfUrl = '/files/resume.pdf';
       window.open(pdfUrl, '_blank');
     }
 
